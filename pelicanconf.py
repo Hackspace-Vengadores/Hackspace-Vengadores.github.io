@@ -24,7 +24,10 @@ MARKDOWN = {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
-		'markdown.extensions.toc': {}
+		'markdown.extensions.toc': {
+             'permalink': 'true',
+        },
+        'markdown.extensions.admonition': {}
     },
     'output_format': 'html5',
 }
@@ -43,7 +46,10 @@ PLUGINS = [
 	'extract_toc',
 	'assets',
 	'share_post',
-	'series'
+	'series',
+    'photos',
+    'tipue_search',
+    'post_stats'
 ]
 
 IGNORE_FILES = ['.ipynb_checkpoints']
@@ -70,8 +76,12 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 		 ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('RSS', 'https://hackspace-vengadores.github.io/feeds/all.atom.xml'),
-		  ('Another social link', '#'),)
+SOCIAL = (('RSS', 'https://hackspace-vengadores.github.io/feeds/all.atom.xml', 'Feed RSS'),
+        ('Github', 'https://github.com/Hackspace-Vengadores', 'Repositorio Github HackSpace Vengadores'),
+        ('Facebook', 'https://www.facebook.com/HackSpacePeru', 'HackSpace Perú'),
+        ('Twitter', 'https://twitter.com/hackspaceperu', 'HackSpace Perú'),
+        ('YouTube', 'https://www.youtube.com/user/hackspaceperu', 'Hack Space Perú'),
+        ('Telegram', 'https://www.t.me/hackspace', 'HackSpace'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -110,3 +120,42 @@ AUTHORS = {
 		"avatar": "https://avatars0.githubusercontent.com/u/59841113?s=460&v=4",
     },
 }
+
+HOSTED_ON = {
+    "name": "GitHub Pages",
+    "url": "https://pages.github.com"
+    }
+SITESUBTITLE = 'Puedes, deberías, y si eres lo suficientemente valiente como para comenzar, lo harás.'
+
+SITE_LICENSE = """Contenido con licencia bajo <a rel="license nofollow noopener noreferrer"
+    href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">
+    GNU General Public License, version 2</a>."""
+
+COMMENTS_INTRO = "¿Entonces, qué piensas? ¿Me he perdido algo? ¿Alguna parte no está clara? Deja tus comentarios abajo"
+LANDING_PAGE_TITLE = "Hack Space Vengadores"
+PROJECTS_TITLE = "Mis Proyectos"
+PROJECTS = [
+    {'name': 'Numpy + Matplotlib + Pandas',
+    'url': 'https://github.com/BrendaCorrea111/Brenda',
+    'description': 'Vim plugin to emulate Windows Notepad logging feature,'
+    ' and log duration of each entry'},
+    {'name': 'PyQt5',
+    'url': 'https://github.com/Hackspace-Vengadores',
+    'description': 'A clean and distraction free theme, with search and a'
+    ' lot more unique features, using Jinja2 and Bootstrap'},
+    {'name': 'ScikitLearn + Pandas',
+    'url': 'https://github.com/Darkil-HS/HackSpace',
+    'description': 'Vim plugin to emulate Windows Notepad logging feature,'
+    ' and log duration of each entry'},
+    {'name': 'OpenCV',
+    'url': 'https://github.com/AntonioAllende/MyAppSample',
+    'description': 'A clean and distraction free theme, with search and a'
+    ' lot more unique features, using Jinja2 and Bootstrap'},
+    {'name': 'Machine Learning',
+    'url': 'https://github.com/MarlonX-HS/HackSpace',
+    'description': 'Vim plugin to emulate Windows Notepad logging feature,'
+    ' and log duration of each entry'}
+    ]
+DIRECT_TEMPLATES = ['search', '404']
+READING_TIME_LOWER_LIMIT = 10
+SEARCH_URL = "search"
