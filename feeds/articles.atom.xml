@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hackspace Vengadores - articles</title><link href="https://hackspace-vengadores.github.io/" rel="alternate"></link><link href="https://hackspace-vengadores.github.io/feeds/articles.atom.xml" rel="self"></link><id>https://hackspace-vengadores.github.io/</id><updated>2020-01-13T18:00:00-05:00</updated><subtitle>Puedes, deberías, y si eres lo suficientemente valiente como para comenzar, lo harás.</subtitle><entry><title>Primer día</title><link href="https://hackspace-vengadores.github.io/blog/2020/01/13/review-antonio/" rel="alternate"></link><published>2020-01-13T10:00:00-05:00</published><updated>2020-01-13T18:00:00-05:00</updated><author><name>AntonioAllende</name></author><id>tag:hackspace-vengadores.github.io,2020-01-13:/blog/2020/01/13/review-antonio/</id><summary type="html">
+&lt;p&gt;[TOC]
+Bienvenido al curso Profesional de Ciencia de Datos, en este curso la profesora Inés Huertas experta en Big data e inteligencia artificial te va a enseñar:
+•   Breve introducción a R
+•   Web scrapping
+•   Visualización de datos
+•   Operación de datos
+•   Transformación de datos
+•   Exponer los datos a través de un API
+El mundo del data science no es algo nuevo, desde los años 60 existían los mineros de datos: Personas dedicadas a analizar grandes cantidades de datos con estadística. Los mineros de datos tenían una limitante tecnológica pues demasiados datos eran difíciles de procesar, hoy en día gracias a toda la mejora en el hardware es que el mundo de data science se ha expandido.
+El trabajo de un data scientist lleva varios pasos:
+1.  Obtención de datos.
+2.  Enriquecimiento de los datos.
+3.  Adecuación e interpretación de datos.
+4.  Aplicación del modelo.
+5.  Interpretación de los resultados.
+6.  Puesta en producción del modelo.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="hackspace202" src="https://hackspace-vengadores.github.io/images/Pythonselectores.png"/&gt;&lt;/p&gt;
+</summary><content type="html">
+
+&lt;p&gt;[TOC]
+Bienvenido al curso Profesional de Ciencia de Datos, en este curso la profesora Inés Huertas experta en Big data e inteligencia artificial te va a enseñar:
+•   Breve introducción a R
+•   Web scrapping
+•   Visualización de datos
+•   Operación de datos
+•   Transformación de datos
+•   Exponer los datos a través de un API
+El mundo del data science no es algo nuevo, desde los años 60 existían los mineros de datos: Personas dedicadas a analizar grandes cantidades de datos con estadística. Los mineros de datos tenían una limitante tecnológica pues demasiados datos eran difíciles de procesar, hoy en día gracias a toda la mejora en el hardware es que el mundo de data science se ha expandido.
+El trabajo de un data scientist lleva varios pasos:
+1.  Obtención de datos.
+2.  Enriquecimiento de los datos.
+3.  Adecuación e interpretación de datos.
+4.  Aplicación del modelo.
+5.  Interpretación de los resultados.
+6.  Puesta en producción del modelo.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="hackspace202" src="https://hackspace-vengadores.github.io/images/Pythonselectores.png"&gt;&lt;/p&gt;
+</content><category term="articles"></category><category term="python"></category></entry><entry><title>Primer día</title><link href="https://hackspace-vengadores.github.io/blog/2020/01/13/review-brenda/" rel="alternate"></link><published>2020-01-13T10:00:00-05:00</published><updated>2020-01-13T18:00:00-05:00</updated><author><name>BrendaCorrea111</name></author><id>tag:hackspace-vengadores.github.io,2020-01-13:/blog/2020/01/13/review-brenda/</id><summary type="html">
+&lt;h2 id="numpy"&gt;Numpy&lt;a class="headerlink" href="#numpy" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span class="katex-display"&gt;&lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant="normal"&gt;sen&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mspace linebreak="newline"&gt;&lt;/mspace&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant="normal"&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mspace linebreak="newline"&gt;&lt;/mspace&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msub&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant="normal"&gt;tan&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;
+f_{1}\left(x\right)=\operatorname{sen}\left(x\right)\
+f_{2}\left(x\right)=\operatorname{cos}\left(x\right)\
+f_{3}\left(x\right)=\operatorname{tan}\left(x\right)
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span aria-hidden="true" class="katex-html"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathdefault" style="margin-right:0.10764em;"&gt;f&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t vlist-t2"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.30110799999999993em;"&gt;&lt;span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;&lt;span class="mord mtight"&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-s"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.15em;"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mop"&gt;&lt;span class="mord mathrm"&gt;s&lt;/span&gt;&lt;span class="mord mathrm"&gt;e&lt;/span&gt;&lt;span class="mord mathrm"&gt;n&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace newline"&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathdefault" style="margin-right:0.10764em;"&gt;f&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t vlist-t2"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.30110799999999993em;"&gt;&lt;span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-s"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.15em;"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mop"&gt;&lt;span class="mord mathrm"&gt;c&lt;/span&gt;&lt;span class="mord mathrm"&gt;o&lt;/span&gt;&lt;span class="mord mathrm"&gt;s&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace newline"&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathdefault" style="margin-right:0.10764em;"&gt;f&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t vlist-t2"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.30110799999999993em;"&gt;&lt;span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;&lt;span class="mord mtight"&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-s"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.15em;"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mop"&gt;&lt;span class="mord mathrm"&gt;t&lt;/span&gt;&lt;span class="mord mathrm"&gt;a&lt;/span&gt;&lt;span class="mord mathrm"&gt;n&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;example&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"Hello World"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;arange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;reshape&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;
+&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([[&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+       &lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+       &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;13&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="p"&gt;]])&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ndim&lt;/span&gt;
+&lt;span class="mi"&gt;2&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;dtype&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;
+&lt;span class="s1"&gt;'int64'&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;itemsize&lt;/span&gt;
+&lt;span class="mi"&gt;8&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;size&lt;/span&gt;
+&lt;span class="mi"&gt;15&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nb"&gt;type&lt;/span&gt; &lt;span class="s1"&gt;'numpy.ndarray'&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;
+&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nb"&gt;type&lt;/span&gt; &lt;span class="s1"&gt;'numpy.ndarray'&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="admonition danger"&gt;
+&lt;p class="admonition-title"&gt;Danger&lt;/p&gt;
+&lt;p&gt;Esta es una advertencia de peligro o error&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Warning&lt;/p&gt;
+&lt;p&gt;Esta es una advertencia, advertencia o advertencia.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition important"&gt;
+&lt;p class="admonition-title"&gt;Important&lt;/p&gt;
+&lt;p&gt;Esta es importante o de nota&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition hint"&gt;
+&lt;p class="admonition-title"&gt;Hint&lt;/p&gt;
+&lt;p&gt;Esta es una sugerencia o consejo&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition hint"&gt;
+&lt;p class="admonition-title"&gt;Use comillas dobles para cambiar el título&lt;/p&gt;
+&lt;p&gt;Este cuadro de advertencia contiene un mosaico personalizado porque lo coloqué entre comillas dobles después de &lt;code&gt;hint&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition important"&gt;
+&lt;p&gt;Este cuadro no requiere un título, pero sigue siendo una advertencia &lt;code&gt;important&lt;/code&gt; y se resaltará como tal.&lt;/p&gt;
+&lt;/div&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Season&lt;/th&gt;
+&lt;th&gt;Episodes&lt;/th&gt;
+&lt;th&gt;First aired&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;June 2, 2002&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;June 1, 2003&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;September 19, 2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;September 10, 2006&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;January 6, 2008&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor aliquam nulla facilisi.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class="ampl" href="https://www.mozilla.org/"&gt;Example Link&lt;/a&gt; blah blah&lt;/p&gt;
+</summary><content type="html">
+
+&lt;h2 id="numpy"&gt;Numpy&lt;a class="headerlink" href="#numpy" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span class="katex-display"&gt;&lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant="normal"&gt;sen&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mspace linebreak="newline"&gt;&lt;/mspace&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant="normal"&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mspace linebreak="newline"&gt;&lt;/mspace&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msub&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant="normal"&gt;tan&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;
+f_{1}\left(x\right)=\operatorname{sen}\left(x\right)\
+f_{2}\left(x\right)=\operatorname{cos}\left(x\right)\
+f_{3}\left(x\right)=\operatorname{tan}\left(x\right)
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span aria-hidden="true" class="katex-html"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathdefault" style="margin-right:0.10764em;"&gt;f&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t vlist-t2"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.30110799999999993em;"&gt;&lt;span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;&lt;span class="mord mtight"&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-s"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.15em;"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mop"&gt;&lt;span class="mord mathrm"&gt;s&lt;/span&gt;&lt;span class="mord mathrm"&gt;e&lt;/span&gt;&lt;span class="mord mathrm"&gt;n&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace newline"&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathdefault" style="margin-right:0.10764em;"&gt;f&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t vlist-t2"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.30110799999999993em;"&gt;&lt;span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-s"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.15em;"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mop"&gt;&lt;span class="mord mathrm"&gt;c&lt;/span&gt;&lt;span class="mord mathrm"&gt;o&lt;/span&gt;&lt;span class="mord mathrm"&gt;s&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace newline"&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathdefault" style="margin-right:0.10764em;"&gt;f&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t vlist-t2"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.30110799999999993em;"&gt;&lt;span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;&lt;span class="mord mtight"&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-s"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.15em;"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mop"&gt;&lt;span class="mord mathrm"&gt;t&lt;/span&gt;&lt;span class="mord mathrm"&gt;a&lt;/span&gt;&lt;span class="mord mathrm"&gt;n&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;example&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"Hello World"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;arange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;reshape&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;
+&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([[&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+       &lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+       &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;13&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="p"&gt;]])&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ndim&lt;/span&gt;
+&lt;span class="mi"&gt;2&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;dtype&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;
+&lt;span class="s1"&gt;'int64'&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;itemsize&lt;/span&gt;
+&lt;span class="mi"&gt;8&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;size&lt;/span&gt;
+&lt;span class="mi"&gt;15&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nb"&gt;type&lt;/span&gt; &lt;span class="s1"&gt;'numpy.ndarray'&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;
+&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nb"&gt;type&lt;/span&gt; &lt;span class="s1"&gt;'numpy.ndarray'&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="admonition danger"&gt;
+&lt;p class="admonition-title"&gt;Danger&lt;/p&gt;
+&lt;p&gt;Esta es una advertencia de peligro o error&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Warning&lt;/p&gt;
+&lt;p&gt;Esta es una advertencia, advertencia o advertencia.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition important"&gt;
+&lt;p class="admonition-title"&gt;Important&lt;/p&gt;
+&lt;p&gt;Esta es importante o de nota&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition hint"&gt;
+&lt;p class="admonition-title"&gt;Hint&lt;/p&gt;
+&lt;p&gt;Esta es una sugerencia o consejo&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition hint"&gt;
+&lt;p class="admonition-title"&gt;Use comillas dobles para cambiar el título&lt;/p&gt;
+&lt;p&gt;Este cuadro de advertencia contiene un mosaico personalizado porque lo coloqué entre comillas dobles después de &lt;code&gt;hint&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition important"&gt;
+&lt;p&gt;Este cuadro no requiere un título, pero sigue siendo una advertencia &lt;code&gt;important&lt;/code&gt; y se resaltará como tal.&lt;/p&gt;
+&lt;/div&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Season&lt;/th&gt;
+&lt;th&gt;Episodes&lt;/th&gt;
+&lt;th&gt;First aired&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;June 2, 2002&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;June 1, 2003&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;September 19, 2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;September 10, 2006&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;January 6, 2008&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor aliquam nulla facilisi.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class="ampl" href="https://www.mozilla.org/"&gt;Example Link&lt;/a&gt; blah blah&lt;/p&gt;
+</content><category term="articles"></category><category term="python"></category></entry><entry><title>Primer día</title><link href="https://hackspace-vengadores.github.io/blog/2020/01/13/review-carlos/" rel="alternate"></link><published>2020-01-13T10:00:00-05:00</published><updated>2020-01-13T18:00:00-05:00</updated><author><name>Oromion</name></author><id>tag:hackspace-vengadores.github.io,2020-01-13:/blog/2020/01/13/review-carlos/</id><summary type="html">
+&lt;h2 id="numpy"&gt;Numpy&lt;a class="headerlink" href="#numpy" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span class="katex-display"&gt;&lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant="normal"&gt;sen&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mspace linebreak="newline"&gt;&lt;/mspace&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant="normal"&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mspace linebreak="newline"&gt;&lt;/mspace&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msub&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant="normal"&gt;tan&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;
+f_{1}\left(x\right)=\operatorname{sen}\left(x\right)\
+f_{2}\left(x\right)=\operatorname{cos}\left(x\right)\
+f_{3}\left(x\right)=\operatorname{tan}\left(x\right)
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span aria-hidden="true" class="katex-html"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathdefault" style="margin-right:0.10764em;"&gt;f&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t vlist-t2"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.30110799999999993em;"&gt;&lt;span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;&lt;span class="mord mtight"&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-s"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.15em;"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mop"&gt;&lt;span class="mord mathrm"&gt;s&lt;/span&gt;&lt;span class="mord mathrm"&gt;e&lt;/span&gt;&lt;span class="mord mathrm"&gt;n&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace newline"&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathdefault" style="margin-right:0.10764em;"&gt;f&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t vlist-t2"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.30110799999999993em;"&gt;&lt;span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-s"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.15em;"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mop"&gt;&lt;span class="mord mathrm"&gt;c&lt;/span&gt;&lt;span class="mord mathrm"&gt;o&lt;/span&gt;&lt;span class="mord mathrm"&gt;s&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace newline"&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathdefault" style="margin-right:0.10764em;"&gt;f&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t vlist-t2"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.30110799999999993em;"&gt;&lt;span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;&lt;span class="mord mtight"&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-s"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.15em;"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mop"&gt;&lt;span class="mord mathrm"&gt;t&lt;/span&gt;&lt;span class="mord mathrm"&gt;a&lt;/span&gt;&lt;span class="mord mathrm"&gt;n&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;example&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"Hello World"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;arange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;reshape&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;
+&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([[&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+       &lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+       &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;13&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="p"&gt;]])&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ndim&lt;/span&gt;
+&lt;span class="mi"&gt;2&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;dtype&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;
+&lt;span class="s1"&gt;'int64'&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;itemsize&lt;/span&gt;
+&lt;span class="mi"&gt;8&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;size&lt;/span&gt;
+&lt;span class="mi"&gt;15&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nb"&gt;type&lt;/span&gt; &lt;span class="s1"&gt;'numpy.ndarray'&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;
+&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nb"&gt;type&lt;/span&gt; &lt;span class="s1"&gt;'numpy.ndarray'&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="admonition danger"&gt;
+&lt;p class="admonition-title"&gt;Danger&lt;/p&gt;
+&lt;p&gt;Esta es una advertencia de peligro o error&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Warning&lt;/p&gt;
+&lt;p&gt;Esta es una advertencia, advertencia o advertencia.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition important"&gt;
+&lt;p class="admonition-title"&gt;Important&lt;/p&gt;
+&lt;p&gt;Esta es importante o de nota&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition hint"&gt;
+&lt;p class="admonition-title"&gt;Hint&lt;/p&gt;
+&lt;p&gt;Esta es una sugerencia o consejo&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition hint"&gt;
+&lt;p class="admonition-title"&gt;Use comillas dobles para cambiar el título&lt;/p&gt;
+&lt;p&gt;Este cuadro de advertencia contiene un mosaico personalizado porque lo coloqué entre comillas dobles después de &lt;code&gt;hint&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition important"&gt;
+&lt;p&gt;Este cuadro no requiere un título, pero sigue siendo una advertencia &lt;code&gt;important&lt;/code&gt; y se resaltará como tal.&lt;/p&gt;
+&lt;/div&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Season&lt;/th&gt;
+&lt;th&gt;Episodes&lt;/th&gt;
+&lt;th&gt;First aired&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;June 2, 2002&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;June 1, 2003&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;September 19, 2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;September 10, 2006&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;January 6, 2008&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor aliquam nulla facilisi.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class="ampl" href="https://www.mozilla.org/"&gt;Example Link&lt;/a&gt; blah blah&lt;/p&gt;
+</summary><content type="html">
+
+&lt;h2 id="numpy"&gt;Numpy&lt;a class="headerlink" href="#numpy" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span class="katex-display"&gt;&lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant="normal"&gt;sen&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mspace linebreak="newline"&gt;&lt;/mspace&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant="normal"&gt;cos&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mspace linebreak="newline"&gt;&lt;/mspace&gt;&lt;msub&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;mn&gt;3&lt;/mn&gt;&lt;/msub&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi mathvariant="normal"&gt;tan&lt;/mi&gt;&lt;mo&gt;⁡&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence="true"&gt;(&lt;/mo&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo fence="true"&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;
+f_{1}\left(x\right)=\operatorname{sen}\left(x\right)\
+f_{2}\left(x\right)=\operatorname{cos}\left(x\right)\
+f_{3}\left(x\right)=\operatorname{tan}\left(x\right)
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span aria-hidden="true" class="katex-html"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathdefault" style="margin-right:0.10764em;"&gt;f&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t vlist-t2"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.30110799999999993em;"&gt;&lt;span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;&lt;span class="mord mtight"&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-s"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.15em;"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mop"&gt;&lt;span class="mord mathrm"&gt;s&lt;/span&gt;&lt;span class="mord mathrm"&gt;e&lt;/span&gt;&lt;span class="mord mathrm"&gt;n&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace newline"&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathdefault" style="margin-right:0.10764em;"&gt;f&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t vlist-t2"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.30110799999999993em;"&gt;&lt;span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-s"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.15em;"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mop"&gt;&lt;span class="mord mathrm"&gt;c&lt;/span&gt;&lt;span class="mord mathrm"&gt;o&lt;/span&gt;&lt;span class="mord mathrm"&gt;s&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace newline"&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathdefault" style="margin-right:0.10764em;"&gt;f&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t vlist-t2"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.30110799999999993em;"&gt;&lt;span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;&lt;span class="mord mtight"&gt;3&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-s"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.15em;"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2777777777777778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:1em;vertical-align:-0.25em;"&gt;&lt;/span&gt;&lt;span class="mop"&gt;&lt;span class="mord mathrm"&gt;t&lt;/span&gt;&lt;span class="mord mathrm"&gt;a&lt;/span&gt;&lt;span class="mord mathrm"&gt;n&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.16666666666666666em;"&gt;&lt;/span&gt;&lt;span class="minner"&gt;&lt;span class="mopen delimcenter" style="top:0em;"&gt;(&lt;/span&gt;&lt;span class="mord mathdefault"&gt;x&lt;/span&gt;&lt;span class="mclose delimcenter" style="top:0em;"&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;example&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;"Hello World"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;arange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;reshape&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;
+&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([[&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+       &lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+       &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;11&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;13&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;14&lt;/span&gt;&lt;span class="p"&gt;]])&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ndim&lt;/span&gt;
+&lt;span class="mi"&gt;2&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;dtype&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;
+&lt;span class="s1"&gt;'int64'&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;itemsize&lt;/span&gt;
+&lt;span class="mi"&gt;8&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;size&lt;/span&gt;
+&lt;span class="mi"&gt;15&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nb"&gt;type&lt;/span&gt; &lt;span class="s1"&gt;'numpy.ndarray'&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;
+&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;span class="o"&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nb"&gt;type&lt;/span&gt; &lt;span class="s1"&gt;'numpy.ndarray'&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="admonition danger"&gt;
+&lt;p class="admonition-title"&gt;Danger&lt;/p&gt;
+&lt;p&gt;Esta es una advertencia de peligro o error&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition warning"&gt;
+&lt;p class="admonition-title"&gt;Warning&lt;/p&gt;
+&lt;p&gt;Esta es una advertencia, advertencia o advertencia.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition important"&gt;
+&lt;p class="admonition-title"&gt;Important&lt;/p&gt;
+&lt;p&gt;Esta es importante o de nota&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition hint"&gt;
+&lt;p class="admonition-title"&gt;Hint&lt;/p&gt;
+&lt;p&gt;Esta es una sugerencia o consejo&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition hint"&gt;
+&lt;p class="admonition-title"&gt;Use comillas dobles para cambiar el título&lt;/p&gt;
+&lt;p&gt;Este cuadro de advertencia contiene un mosaico personalizado porque lo coloqué entre comillas dobles después de &lt;code&gt;hint&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="admonition important"&gt;
+&lt;p&gt;Este cuadro no requiere un título, pero sigue siendo una advertencia &lt;code&gt;important&lt;/code&gt; y se resaltará como tal.&lt;/p&gt;
+&lt;/div&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Season&lt;/th&gt;
+&lt;th&gt;Episodes&lt;/th&gt;
+&lt;th&gt;First aired&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;June 2, 2002&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;June 1, 2003&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;September 19, 2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;September 10, 2006&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;January 6, 2008&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor aliquam nulla facilisi.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class="ampl" href="https://www.mozilla.org/"&gt;Example Link&lt;/a&gt; blah blah&lt;/p&gt;
+</content><category term="articles"></category><category term="python"></category></entry><entry><title>Primer día</title><link href="https://hackspace-vengadores.github.io/blog/2020/01/13/review-marcos/" rel="alternate"></link><published>2020-01-13T10:00:00-05:00</published><updated>2020-01-13T18:00:00-05:00</updated><author><name>Darkil-HS</name></author><id>tag:hackspace-vengadores.github.io,2020-01-13:/blog/2020/01/13/review-marcos/</id><summary type="html">
+&lt;h2 id="numpy"&gt;Numpy&lt;a class="headerlink" href="#numpy" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="admonition important"&gt;
+&lt;p&gt;Esto es una prueba&lt;/p&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor aliquam nulla facilisi.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class="ampl" href="https://www.mozilla.org/"&gt;Example Link&lt;/a&gt; blah blah&lt;/p&gt;
+</summary><content type="html">
+
+&lt;h2 id="numpy"&gt;Numpy&lt;a class="headerlink" href="#numpy" title="Permanent link"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="admonition important"&gt;
+&lt;p&gt;Esto es una prueba&lt;/p&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor aliquam nulla facilisi.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class="ampl" href="https://www.mozilla.org/"&gt;Example Link&lt;/a&gt; blah blah&lt;/p&gt;
+</content><category term="articles"></category><category term="python"></category></entry><entry><title>Primer día</title><link href="https://hackspace-vengadores.github.io/blog/2020/01/13/review-marlon/" rel="alternate"></link><published>2020-01-13T10:00:00-05:00</published><updated>2020-01-13T18:00:00-05:00</updated><author><name>MarlonX-HS</name></author><id>tag:hackspace-vengadores.github.io,2020-01-13:/blog/2020/01/13/review-marlon/</id><summary type="html">
+&lt;div class="toc"&gt;
+&lt;ul&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Inicio del proyecto final para hackspace&lt;/p&gt;
+</summary><content type="html">
+
+&lt;div class="toc"&gt;
+&lt;ul&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Inicio del proyecto final para hackspace&lt;/p&gt;
+</content><category term="articles"></category><category term="python"></category></entry><entry><title>Bienvenida HackSpace 2020</title><link href="https://hackspace-vengadores.github.io/blog/2020/01/13/welcome/" rel="alternate"></link><published>2020-01-13T10:00:00-05:00</published><updated>2020-01-13T11:00:00-05:00</updated><author><name>Hackspace Vengadores</name></author><id>tag:hackspace-vengadores.github.io,2020-01-13:/blog/2020/01/13/welcome/</id><summary type="html">
+&lt;div class="toc"&gt;
+&lt;ul&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;1era semana: Seguir un tutorial complicado.&lt;/p&gt;
+&lt;p&gt;Salir de la zona de confort.&lt;/p&gt;
+&lt;p&gt;Socializar&lt;/p&gt;
+&lt;p&gt;Habilidades socioemocionales.&lt;/p&gt;
+&lt;p&gt;La tecnología cambia muy rápido.&lt;/p&gt;
+&lt;p&gt;Microservicios, Serverless, GraphQL.&lt;/p&gt;
+&lt;p&gt;Aviones -&amp;gt; cohetes espaciales -&amp;gt;&lt;/p&gt;
+&lt;p&gt;Reactivo--preventivo--predictivo--TPM(Total Productive Maintenance).&lt;/p&gt;
+&lt;p&gt;Ejemplo: prever caer el servidor, ingeniería de confiabilidad.&lt;/p&gt;
+&lt;p&gt;Ser conscientes que los servicios se van a caer, nivel de prioridad (intervalo de confianza).
+"No meter mano hasta que sea crítico", mientras tanto automizar.
+Asory impulsado por Google.
+La universidad se desactualiza muy lento.
+En serverless tiene que estar todo funcional
+Un lenguaje no es mejor que otro, tratemos de utilizar lo idóneo al uso que se le da.
+Darle tiempo a algo nuevo.&lt;/p&gt;
+&lt;p&gt;En DataScience no buscan a alguien necesariamente técnico, procesar, entender.&lt;/p&gt;
+&lt;p&gt;Saber pedir la data, correcta, reuniones, presionar.&lt;/p&gt;
+&lt;p&gt;"kulki" modelos predictivos, reconocer fraudes a cada rato.&lt;/p&gt;
+&lt;p&gt;Demostrar que puedo profundizar
+Saber exponer, desenvolverse.
+Berrocal
+proactivo, preguntar correctamente
+se den el tiempo de empoderar y pasar el conocimiento técnico
+se van capacitando
+transmitir conocimientos a los que recién empiezan
+Fedex, empresas.
+compartir conocimientos&lt;/p&gt;
+&lt;p&gt;waira sar peru, chile
+canvas, startups
+ingeniería mecánica, hackatones
+diseño, frontend
+auspiciado por el congreso, ministerio de producción, por ejemplo
+compartir lo que sabes, saber que te gusta
+perder miedo a actualizarse
+giorgio 17 años hackspace, teacher 
+diego aprendió de giorgio, los websockets son y para eso funciona
+decir como funciona&lt;/p&gt;
+&lt;p&gt;navegador, spacemacs
+jugar con la computadora
+4 cosas 
+aprender a aprender
+2 personas 1 laptop pair programming
+las empresas grandes no valoran mucho a los que no terminan la carrera&lt;/p&gt;
+&lt;p&gt;Cómo puedo aportar en el espacio.&lt;/p&gt;
+&lt;p&gt;Entrar a hackspace.pe/diario para llenar la asistencia&lt;/p&gt;
+&lt;p&gt;Aprender más para ganar más&lt;/p&gt;
+&lt;p&gt;Las reglas (obligatorias) o normas de convivencia
+seguro en opinar, estar
+opensource, educativos, retadores% no cliente, no trabajo
+cómo corregir a los demás
+si es para subir mi ego, mejor no hablar.&lt;/p&gt;
+</summary><content type="html">
+
+&lt;div class="toc"&gt;
+&lt;ul&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;1era semana: Seguir un tutorial complicado.&lt;/p&gt;
+&lt;p&gt;Salir de la zona de confort.&lt;/p&gt;
+&lt;p&gt;Socializar&lt;/p&gt;
+&lt;p&gt;Habilidades socioemocionales.&lt;/p&gt;
+&lt;p&gt;La tecnología cambia muy rápido.&lt;/p&gt;
+&lt;p&gt;Microservicios, Serverless, GraphQL.&lt;/p&gt;
+&lt;p&gt;Aviones -&amp;gt; cohetes espaciales -&amp;gt;&lt;/p&gt;
+&lt;p&gt;Reactivo--preventivo--predictivo--TPM(Total Productive Maintenance).&lt;/p&gt;
+&lt;p&gt;Ejemplo: prever caer el servidor, ingeniería de confiabilidad.&lt;/p&gt;
+&lt;p&gt;Ser conscientes que los servicios se van a caer, nivel de prioridad (intervalo de confianza).
+"No meter mano hasta que sea crítico", mientras tanto automizar.
+Asory impulsado por Google.
+La universidad se desactualiza muy lento.
+En serverless tiene que estar todo funcional
+Un lenguaje no es mejor que otro, tratemos de utilizar lo idóneo al uso que se le da.
+Darle tiempo a algo nuevo.&lt;/p&gt;
+&lt;p&gt;En DataScience no buscan a alguien necesariamente técnico, procesar, entender.&lt;/p&gt;
+&lt;p&gt;Saber pedir la data, correcta, reuniones, presionar.&lt;/p&gt;
+&lt;p&gt;"kulki" modelos predictivos, reconocer fraudes a cada rato.&lt;/p&gt;
+&lt;p&gt;Demostrar que puedo profundizar
+Saber exponer, desenvolverse.
+Berrocal
+proactivo, preguntar correctamente
+se den el tiempo de empoderar y pasar el conocimiento técnico
+se van capacitando
+transmitir conocimientos a los que recién empiezan
+Fedex, empresas.
+compartir conocimientos&lt;/p&gt;
+&lt;p&gt;waira sar peru, chile
+canvas, startups
+ingeniería mecánica, hackatones
+diseño, frontend
+auspiciado por el congreso, ministerio de producción, por ejemplo
+compartir lo que sabes, saber que te gusta
+perder miedo a actualizarse
+giorgio 17 años hackspace, teacher 
+diego aprendió de giorgio, los websockets son y para eso funciona
+decir como funciona&lt;/p&gt;
+&lt;p&gt;navegador, spacemacs
+jugar con la computadora
+4 cosas 
+aprender a aprender
+2 personas 1 laptop pair programming
+las empresas grandes no valoran mucho a los que no terminan la carrera&lt;/p&gt;
+&lt;p&gt;Cómo puedo aportar en el espacio.&lt;/p&gt;
+&lt;p&gt;Entrar a hackspace.pe/diario para llenar la asistencia&lt;/p&gt;
+&lt;p&gt;Aprender más para ganar más&lt;/p&gt;
+&lt;p&gt;Las reglas (obligatorias) o normas de convivencia
+seguro en opinar, estar
+opensource, educativos, retadores% no cliente, no trabajo
+cómo corregir a los demás
+si es para subir mi ego, mejor no hablar.&lt;/p&gt;
+
+
+&lt;p&gt;El modelo GPT-2 texto
+3: Data Science
+1: Go Language
+2: Redes neuronales
+2: Dispositivos móviles
+1: Reconocimiento facial&lt;/p&gt;</content><category term="articles"></category><category term="first-day"></category></entry></feed>
