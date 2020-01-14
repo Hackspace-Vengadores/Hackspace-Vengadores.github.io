@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.css" integrity="sha384-bsHo4/LA+lkZv61JspMDQB9QP1TtO4IgOf2yYS+J6VdAYLVyx1c3XKcsHh0Vy8Ws" crossorigin="anonymous">
+        <meta name="author" content="Hackspace Vengadores" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="python, articles, " />
+
+<meta property="og:title" content="Primer día (Carlos) "/>
+<meta property="og:url" content="../../../../../blog/2020/01/13/review-carlos/" />
+<meta property="og:description" content="Numpy f1(x)=sen⁡(x)f2(x)=cos⁡(x)f3(x)=tan⁡(x) f_{1}\left(x\right)=\operatorname{sen}\left(x\right)\ f_{2}\left(x\right)=\operatorname{cos}\left(x\right)\ f_{3}\left(x\right)=\operatorname{tan}\left(x\right) f1​(x)=sen(x)f2​(x)=cos(x)f3​(x)=tan(x) def example(): print(&#34;Hello World&#34;) &gt;&gt;&gt; import numpy as np &gt;&gt;&gt; a = np.arange(15).reshape(3, 5) &gt;&gt;&gt; a array([[ 0, 1, 2, 3, 4], [ 5, 6, 7, 8, 9], [10, 11, 12, 13, 14]]) &gt;&gt;&gt; a.shape (3, 5) &gt;&gt;&gt; a.ndim 2 &gt;&gt;&gt; a.dtype.name &#39;int64&#39; &gt;&gt;&gt; a.itemsize 8 &gt;&gt;&gt; a.size 15 &gt;&gt;&gt; type(a) &lt;type &#39;numpy.ndarray&#39;&gt; &gt;&gt;&gt; b = np.array([6, 7, 8]) &gt;&gt;&gt; b array([6, 7, 8]) &gt;&gt;&gt; type(b) &lt;type &#39;numpy.ndarray&#39;&gt;" />
+<meta property="og:site_name" content="Hackspace Vengadores" />
+<meta property="og:article:author" content="Hackspace Vengadores" />
+<meta property="og:article:published_time" content="2020-01-13T10:00:00-05:00" />
+<meta property="og:article:modified_time" content="2020-01-13T18:00:00-05:00" />
+<meta name="twitter:title" content="Primer día (Carlos) ">
+<meta name="twitter:description" content="Numpy f1(x)=sen⁡(x)f2(x)=cos⁡(x)f3(x)=tan⁡(x) f_{1}\left(x\right)=\operatorname{sen}\left(x\right)\ f_{2}\left(x\right)=\operatorname{cos}\left(x\right)\ f_{3}\left(x\right)=\operatorname{tan}\left(x\right) f1​(x)=sen(x)f2​(x)=cos(x)f3​(x)=tan(x) def example(): print(&#34;Hello World&#34;) &gt;&gt;&gt; import numpy as np &gt;&gt;&gt; a = np.arange(15).reshape(3, 5) &gt;&gt;&gt; a array([[ 0, 1, 2, 3, 4], [ 5, 6, 7, 8, 9], [10, 11, 12, 13, 14]]) &gt;&gt;&gt; a.shape (3, 5) &gt;&gt;&gt; a.ndim 2 &gt;&gt;&gt; a.dtype.name &#39;int64&#39; &gt;&gt;&gt; a.itemsize 8 &gt;&gt;&gt; a.size 15 &gt;&gt;&gt; type(a) &lt;type &#39;numpy.ndarray&#39;&gt; &gt;&gt;&gt; b = np.array([6, 7, 8]) &gt;&gt;&gt; b array([6, 7, 8]) &gt;&gt;&gt; type(b) &lt;type &#39;numpy.ndarray&#39;&gt;">
+
+        <title>Primer día (Carlos)  · Hackspace Vengadores
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../../../../../theme/css/elegant.prod.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="../../../../../theme/css/custom.css" media="screen">
+
+
+
+    </head>
+    <body>
+        <div id="content">
+            <div class="navbar navbar-static-top">
+                <div class="navbar-inner">
+                    <div class="container-fluid">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <a class="brand" href="../../../../../"><span class=site-name>Hackspace Vengadores</span></a>
+                        <div class="nav-collapse collapse">
+                            <ul class="nav pull-right top-menu">
+                                <li >
+                                    <a href=
+                                       ../../../../..
+                                    >Home</a>
+                                </li>
+                                <li ><a href="../../../../../categories.html">Categories</a></li>
+                                <li ><a href="../../../../../tags.html">Tags</a></li>
+                                <li ><a href="../../../../../archives.html">Archives</a></li>
+                                <li><form class="navbar-search" action="../../../../../search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span1"></div>
+                    <div class="span10">
+<article itemscope>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+        <h1>
+            <a href="../../../../../blog/2020/01/13/review-carlos/">
+                Primer día (Carlos)
+            </a>
+        </h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+            
+            
+
+<h2>Numpy</h2>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>f</mi><mn>1</mn></msub><mrow><mo fence="true">(</mo><mi>x</mi><mo fence="true">)</mo></mrow><mo>=</mo><mi mathvariant="normal">sen</mi><mo>⁡</mo><mrow><mo fence="true">(</mo><mi>x</mi><mo fence="true">)</mo></mrow><mspace linebreak="newline"></mspace><msub><mi>f</mi><mn>2</mn></msub><mrow><mo fence="true">(</mo><mi>x</mi><mo fence="true">)</mo></mrow><mo>=</mo><mi mathvariant="normal">cos</mi><mo>⁡</mo><mrow><mo fence="true">(</mo><mi>x</mi><mo fence="true">)</mo></mrow><mspace linebreak="newline"></mspace><msub><mi>f</mi><mn>3</mn></msub><mrow><mo fence="true">(</mo><mi>x</mi><mo fence="true">)</mo></mrow><mo>=</mo><mi mathvariant="normal">tan</mi><mo>⁡</mo><mrow><mo fence="true">(</mo><mi>x</mi><mo fence="true">)</mo></mrow></mrow><annotation encoding="application/x-tex">
+f_{1}\left(x\right)=\operatorname{sen}\left(x\right)\
+f_{2}\left(x\right)=\operatorname{cos}\left(x\right)\
+f_{3}\left(x\right)=\operatorname{tan}\left(x\right)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathdefault">x</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mop"><span class="mord mathrm">s</span><span class="mord mathrm">e</span><span class="mord mathrm">n</span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathdefault">x</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathdefault">x</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mop"><span class="mord mathrm">c</span><span class="mord mathrm">o</span><span class="mord mathrm">s</span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathdefault">x</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathdefault">x</span><span class="mclose delimcenter" style="top:0em;">)</span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mop"><span class="mord mathrm">t</span><span class="mord mathrm">a</span><span class="mord mathrm">n</span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">(</span><span class="mord mathdefault">x</span><span class="mclose delimcenter" style="top:0em;">)</span></span></span></span></span></span>
+</p>
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">example</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Hello World&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">a</span>
+<span class="n">array</span><span class="p">([[</span> <span class="mi">0</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span>  <span class="mi">2</span><span class="p">,</span>  <span class="mi">3</span><span class="p">,</span>  <span class="mi">4</span><span class="p">],</span>
+       <span class="p">[</span> <span class="mi">5</span><span class="p">,</span>  <span class="mi">6</span><span class="p">,</span>  <span class="mi">7</span><span class="p">,</span>  <span class="mi">8</span><span class="p">,</span>  <span class="mi">9</span><span class="p">],</span>
+       <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">14</span><span class="p">]])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">shape</span>
+<span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">ndim</span>
+<span class="mi">2</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">dtype</span><span class="o">.</span><span class="n">name</span>
+<span class="s1">&#39;int64&#39;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">itemsize</span>
+<span class="mi">8</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">a</span><span class="o">.</span><span class="n">size</span>
+<span class="mi">15</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="o">&lt;</span><span class="nb">type</span> <span class="s1">&#39;numpy.ndarray&#39;</span><span class="o">&gt;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">b</span>
+<span class="n">array</span><span class="p">([</span><span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">type</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+<span class="o">&lt;</span><span class="nb">type</span> <span class="s1">&#39;numpy.ndarray&#39;</span><span class="o">&gt;</span>
+</pre></div>
+
+
+
+
+
+             
+ 
+            
+            
+            
+
+
+
+
+
+
+            <hr/>
+            <aside>
+            <nav>
+            <ul class="articles-timeline">
+                <li class="previous-article">« <a href="../../../../../blog/2020/01/13/review-marcos/" title="Previous: Primer día (Marcos)">Primer día (Marcos)</a></li>
+                <li class="next-article"><a href="../../../../../blog/2020/01/13/review-brenda/" title="Next: Primer día (Brenda)">Primer día (Brenda)</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section id="article-sidebar" class="span2">
+            <h4>Published</h4>
+            <time itemprop="dateCreated" datetime="2020-01-13T10:00:00-05:00">Jan 13, 2020</time>
+
+            <h4>Category</h4>
+            <a class="category-link" href="../../../../../categories.html#articles-ref">articles</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="../../../../../tags.html#python-ref">python
+                    <span>4</span>
+</a></li>
+            </ul>
+<h4>Contact</h4>
+<div id="sidebar-social-link">
+</div>
+            
+
+
+
+
+
+            
+
+
+
+
+
+        </section>
+</div>
+</article>
+                    </div>
+                    <div class="span1"></div>
+                </div>
+            </div>
+        </div>
+<footer>
+
+
+
+
+    <div id="fpowered">
+        Powered by: <a href="http://getpelican.com/" title="Pelican Home Page" target="_blank" rel="nofollow noopener noreferrer">Pelican</a>
+        Theme: <a href="https://elegant.oncrashreboot.com/" title="Theme Elegant Home Page" target="_blank" rel="nofollow noopener noreferrer">Elegant</a>
+    </div>
+</footer>            <script src="//code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    <script>
+    (function () {
+        if (window.location.hash.match(/^#comment-\d+$/)) {
+            $('#comment_thread').collapse('show');
+        }
+    })();
+    window.onhashchange=function(){
+        if (window.location.hash.match(/^#comment-\d+$/))
+            window.location.reload(true);
+    }
+    $('#comment_thread').on('shown', function () {
+        var link = document.getElementById('comment-accordion-toggle');
+        var old_innerHTML = link.innerHTML;
+        $(link).fadeOut(200, function() {
+            $(this).text('Click here to hide comments').fadeIn(200);
+        });
+        $('#comment_thread').on('hidden', function () {
+            $(link).fadeOut(200, function() {
+                $(this).text(old_innerHTML).fadeIn(200);
+            });
+        })
+    })
+</script>
+
+    </body>
+    <!-- Theme: Elegant built for Pelican
+        License : MIT -->
+</html>
