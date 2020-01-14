@@ -1,12 +1,13 @@
-Title: Primer día (Marcos)
+Title: Primer día (Antonio)
 date: 2020-01-13 10:00
 Modified: 2020-01-13 18:00
 comments: true
-slug: review-marcos
+slug: review-antonio
 tags: python
 series: Python
-series_index: 3
-author: Darkil-HS
+series_index: 5
+author: AntonioAllende
+
 <!-- PELICAN_BEGIN_SUMMARY -->
 [TOC]
 
@@ -22,6 +23,7 @@ $$
 def example():
     print("Hello World")
 ```
+
 
 ```python
 >>> import numpy as np

@@ -4,8 +4,13 @@ Modified: 2020-01-13 18:00
 comments: true
 slug: review-marlon
 tags: python
+series: Python
+series_index: 4
+author: MarlonX-HS
 
 <!-- PELICAN_BEGIN_SUMMARY -->
+[TOC]
+
 ## Numpy
 
 $$

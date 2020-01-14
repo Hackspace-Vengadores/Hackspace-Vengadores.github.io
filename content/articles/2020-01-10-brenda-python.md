@@ -4,8 +4,13 @@ Modified: 2020-01-13 18:00
 comments: true
 slug: review-brenda
 tags: python
+series: Python
+series_index: 1
+author: BrendaCorrea111
 
 <!-- PELICAN_BEGIN_SUMMARY -->
+[TOC]
+
 ## Numpy
 
 $$
@@ -18,6 +23,7 @@ $$
 def example():
     print("Hello World")
 ```
+
 
 ```python
 >>> import numpy as np

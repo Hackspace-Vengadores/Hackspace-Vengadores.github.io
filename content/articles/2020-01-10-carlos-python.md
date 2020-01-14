@@ -4,8 +4,13 @@ Modified: 2020-01-13 18:00
 comments: true
 slug: review-carlos
 tags: python
+series: Python
+series_index: 2
+author: Oromion
 
 <!-- PELICAN_BEGIN_SUMMARY -->
+[TOC]
+
 ## Numpy
 
 $$
