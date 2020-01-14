@@ -156,6 +156,6 @@ PROJECTS = [
     'description': 'Vim plugin to emulate Windows Notepad logging feature,'
     ' and log duration of each entry'}
     ]
-DIRECT_TEMPLATES = ['search', '404']
+DIRECT_TEMPLATES = ['search'] #'404'
 READING_TIME_LOWER_LIMIT = 10
 SEARCH_URL = "search"
