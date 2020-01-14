@@ -8,5 +8,9 @@ tags: python
 <!-- PELICAN_BEGIN_SUMMARY -->
 ## Numpy
 
-Sea $\mathbb{R}^{\infty}$ que contiene todos los vectores con una sucesión infinita de componentes. Este espacio es actualmente muy grande cuando no existe control en el tamaño de las componentes $v_{j}$. Una idea mucho mejor es mantener la definición familiar de *longitud*, usando la suma de los cuadrados, e incluir solo aquellos vectores que tengan una **longitud finita**.
+$$
+u^{\prime}=f\left(t,u\left(t\right)\right),\quad
+t\in\left(t_{0},t_{0}+T\right],\quad
+u\left(t_{0}\right)=u_{0}\tag{11}
+$$
 <!-- PELICAN_END_SUMMARY -->

@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Hackspace-Vengadores'
-SITENAME = 'Hackspace-Vengadores'
+AUTHOR = 'Hackspace Vengadores'
+SITENAME = 'Hackspace Vengadores'
 SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
