@@ -9,8 +9,6 @@ tags: python
 ## Numpy
 
 $$
-u^{\prime}=f\left(t,u\left(t\right)\right),\quad
-t\in\left(t_{0},t_{0}+T\right],\quad
-u\left(t_{0}\right)=u_{0}\tag{11}
+u^{\prime}=f\left(t,u\left(t\right)\right)
 $$
 <!-- PELICAN_END_SUMMARY -->
